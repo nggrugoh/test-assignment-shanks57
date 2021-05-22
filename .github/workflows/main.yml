@@ -30,5 +30,5 @@ jobs:
         run: npm run test -- --verbose 2>&1 | tee test.log
       - name : show log file
         run: cat test.log
-      - uses: masaditya/test-autograde@v9.7
+      - uses: masaditya/test-autograde@v9.9
         
